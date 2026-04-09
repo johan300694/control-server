@@ -18,5 +18,18 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
 
+  # 🔥 TAMBAHAN ICON
+  flutter_launcher_icons: ^0.13.1
+
 flutter:
   uses-material-design: true
+
+  # 🔥 DAFTAR ASSETS
+  assets:
+    - assets/icon.png
+
+# 🔥 CONFIG ICON
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
