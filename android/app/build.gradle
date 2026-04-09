@@ -19,9 +19,7 @@ android {
     namespace "com.controlserver.app"
     compileSdk 34
 
-    // 🔥 MATIKAN NDK (INI KUNCI BIAR GAK DOWNLOAD)
-    ndkVersion null
-
+    
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
